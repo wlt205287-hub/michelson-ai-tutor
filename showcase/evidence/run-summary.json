@@ -1,0 +1,37 @@
+[
+  {
+    "case": "chat",
+    "http_status": 200,
+    "success": true,
+    "seconds": 27.91,
+    "event_types": [],
+    "answer_chars": 325,
+    "error_code": null
+  },
+  {
+    "case": "quiz",
+    "http_status": 200,
+    "success": true,
+    "seconds": 68.49,
+    "event_types": [
+      "meta",
+      "delta",
+      "done"
+    ],
+    "answer_chars": 1703,
+    "error_code": null
+  },
+  {
+    "case": "report",
+    "http_status": 200,
+    "success": true,
+    "seconds": 84.23,
+    "event_types": [
+      "meta",
+      "delta",
+      "done"
+    ],
+    "answer_chars": 2436,
+    "error_code": null
+  }
+]

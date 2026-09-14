@@ -1,0 +1,34 @@
+[
+  {
+    "case": "quiz",
+    "event_count": 3,
+    "event_types": [
+      "meta",
+      "delta",
+      "done"
+    ],
+    "delta_count": 1,
+    "done_count": 1,
+    "error_count": 0,
+    "first_event": "meta",
+    "last_event": "done",
+    "delta_equals_final": true,
+    "done_equals_saved": true
+  },
+  {
+    "case": "report",
+    "event_count": 1380,
+    "event_types": [
+      "meta",
+      "delta",
+      "done"
+    ],
+    "delta_count": 1378,
+    "done_count": 1,
+    "error_count": 0,
+    "first_event": "meta",
+    "last_event": "done",
+    "delta_equals_final": true,
+    "done_equals_saved": true
+  }
+]

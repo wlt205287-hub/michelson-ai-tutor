@@ -1,0 +1,11 @@
+openai
+python-dotenv
+fastapi
+pydantic>=2.13,<3
+uvicorn
+pypdf>=3.17
+python-multipart
+pdf2image>=1.17
+Pillow>=10.0
+chromadb
+sentence-transformers

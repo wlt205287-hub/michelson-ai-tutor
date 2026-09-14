@@ -1,0 +1,48 @@
+# Secrets: permit only the reviewed example.
+.env
+.env.*
+*.env
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Local Python environments and generated files.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# User data, model caches, and manual test outputs.
+outputs/
+rag_index/
+.cache/
+uploads/
+private_data/
+*.log
+*.db
+*.sqlite*
+*.pth
+*.pt
+*.safetensors
+test_cases/regression_*/
+test_cases/sample_image.*
+test_cases/sample_report.*
+
+# Editor / OS metadata.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Do not globally ignore JSON, JPG, GIF, or Markdown: they include runtime assets.

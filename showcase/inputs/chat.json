@@ -1,0 +1,8 @@
+{
+  "session_id": "public-demo-chat",
+  "stage": "pre_lab",
+  "student_input": "为什么反射式干涉中高度变化与相位变化之间有 4π 因子？请引导我理解。",
+  "conversation_history": [],
+  "teaching_policy": "guided",
+  "guidance_level": 1
+}

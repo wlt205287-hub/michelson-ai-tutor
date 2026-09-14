@@ -1,0 +1,19 @@
+请判断本轮实验助教应采用哪种教学策略，并结合最近对话判断引导进度。
+
+当前实验阶段：{stage}
+
+最近对话：
+{recent_context}
+
+学生本轮问题：
+{student_question}
+
+判定规则：
+- direct：简单定义、单位、单一事实；学生已掌握；学生明确索要完整答案；安全或设备风险信息。
+- guided：需要多步原理推导、公式选择、变量关系、误差原因、结论判断；适合让学生先完成一个关键判断。
+- hybrid：现场操作或现象诊断，需要先给安全且有限的行动，再询问一个可观察结果。
+- student_status 只能是 new、progressing、stuck、correct、asks_direct。
+- direct 的 guidance_level 必须为 0；guided 或 hybrid 使用 1、2、3，第三层必须完整讲解。
+- 不要因为问题文字较长就判为复杂，也不要为了教学而延迟安全信息。
+
+只输出 JSON，不要回答学生问题。

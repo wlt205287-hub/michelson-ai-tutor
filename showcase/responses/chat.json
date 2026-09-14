@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "mode": "tutor",
+  "stage": "pre_lab",
+  "display_type": "markdown",
+  "answer_markdown": "在反射式迈克尔逊干涉中，光不是只走“从分光镜到反射面”这一趟，而是要经过“入射—反射—返回”的往返路径。所以镜面位置变化会以两倍关系进入光程差。\n\n关键线索有两个：\n\n1. 相位与光程差的一般关系为  \n\n$$\n\\Delta\\Phi=\\frac{2\\pi}{\\lambda}\\Delta L\n$$\n\n2. 在反射式光路中，如果某个反射面沿光轴方向移动了距离 $h$，那么光到达该面再返回，实际多走或少走的光程不是 $h$，而是？\n\n请你先写出：反射面高度变化 $h$ 时，对应光程差变化量 $\\Delta L$ 等于多少？  \n\n写出 $\\Delta L$ 后再代回上面的相位公式，看看 $\\Delta\\Phi$ 和 $h$ 之间自然会出现什么系数。",
+  "saved": true,
+  "warning": null,
+  "need_student_reply": true
+}

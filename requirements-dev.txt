@@ -1,0 +1,4 @@
+-r requirements.txt
+
+# Explicit test dependency used by FastAPI TestClient and manual HTTP smoke tests.
+httpx
